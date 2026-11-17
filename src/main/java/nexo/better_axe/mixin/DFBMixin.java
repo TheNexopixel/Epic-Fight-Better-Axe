@@ -1,11 +1,10 @@
-package nexo.dual_axe.mixin;
+package nexo.better_axe.mixin;
 
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import reascer.wom.gameasset.WOMAnimations;
 import reascer.wom.skill.guard.DreadFullBusterSkill;
 import yesman.epicfight.api.animation.AnimationManager;
 import yesman.epicfight.api.animation.types.StaticAnimation;

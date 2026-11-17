@@ -1,4 +1,4 @@
-package nexo.dual_axe.skill;
+package nexo.better_axe.skill;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
@@ -19,7 +19,7 @@ import net.minecraft.world.item.Items;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import nexo.dual_axe.world.capabilities.item.BetterAxeWeaponCategories;
+import nexo.better_axe.world.capabilities.item.BetterAxeWeaponCategories;
 import yesman.epicfight.api.client.animation.property.TrailInfo;
 import yesman.epicfight.api.client.forgeevent.WeaponCategoryIconRegisterEvent;
 import yesman.epicfight.skill.SkillBuilder;
@@ -34,7 +34,6 @@ import yesman.epicfight.world.capabilities.item.CapabilityItem.WeaponCategories;
 import yesman.epicfight.world.capabilities.item.WeaponCategory;
 import yesman.epicfight.world.entity.ai.attribute.EpicFightAttributes;
 import yesman.epicfight.world.entity.eventlistener.PlayerEventListener.EventType;
-import yesman.epicfight.world.item.EpicFightItems;
 // import ...BetterAxeWeaponCategories;  <- Paket aus deinem Addon
 
 public class AxemanSkill extends PassiveSkill {

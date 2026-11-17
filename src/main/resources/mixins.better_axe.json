@@ -1,6 +1,6 @@
 {
   "required": false,
-  "package": "nexo.dual_axe.mixin",
+  "package": "nexo.better_axe.mixin",
   "refmap": "mixins.womplus.refmap.json",
   "minVersion": "0.8",
   "compatibilityLevel": "JAVA_17",

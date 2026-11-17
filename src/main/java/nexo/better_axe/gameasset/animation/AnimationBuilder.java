@@ -1,4 +1,4 @@
-package nexo.dual_axe.gameasset.animation;
+package nexo.better_axe.gameasset.animation;
 
 import yesman.epicfight.api.animation.AnimationManager;
 

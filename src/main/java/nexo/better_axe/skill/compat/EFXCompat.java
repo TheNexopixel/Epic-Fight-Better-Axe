@@ -1,4 +1,4 @@
-package nexo.dual_axe.skill.compat;
+package nexo.better_axe.skill.compat;
 
 import java.util.function.Function;
 import net.minecraft.resources.ResourceLocation;
@@ -6,16 +6,15 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
-import nexo.dual_axe.EpicFightBetterAxeMain;
-import nexo.dual_axe.gameasset.animation.BetterAxeAnimations;
-import nexo.dual_axe.skill.BetterAxeSkills;
-import nexo.dual_axe.world.capabilities.item.BetterAxeWeaponCategories;
+import nexo.better_axe.EpicFightBetterAxeMain;
+import nexo.better_axe.gameasset.animation.BetterAxeAnimations;
+import nexo.better_axe.skill.BetterAxeSkills;
+import nexo.better_axe.world.capabilities.item.BetterAxeWeaponCategories;
 import yesman.epicfight.api.animation.LivingMotions;
 import yesman.epicfight.api.forgeevent.WeaponCapabilityPresetRegistryEvent;
 import yesman.epicfight.compat.ICompatModule;
 import yesman.epicfight.gameasset.Animations;
 import yesman.epicfight.gameasset.ColliderPreset;
-import yesman.epicfight.gameasset.EpicFightSkills;
 import yesman.epicfight.gameasset.EpicFightSounds;
 import yesman.epicfight.particle.EpicFightParticles;
 import yesman.epicfight.world.capabilities.EpicFightCapabilities;

@@ -1,13 +1,13 @@
-package nexo.dual_axe.world.capabilities.item;
+package nexo.better_axe.world.capabilities.item;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import nexo.dual_axe.EpicFightBetterAxeMain;
-import nexo.dual_axe.gameasset.animation.BetterAxeAnimations;
-import nexo.dual_axe.skill.BetterAxeSkills;
+import nexo.better_axe.EpicFightBetterAxeMain;
+import nexo.better_axe.gameasset.animation.BetterAxeAnimations;
+import nexo.better_axe.skill.BetterAxeSkills;
 import yesman.epicfight.api.animation.LivingMotions;
 import yesman.epicfight.api.forgeevent.WeaponCapabilityPresetRegistryEvent;
 import yesman.epicfight.gameasset.Animations;

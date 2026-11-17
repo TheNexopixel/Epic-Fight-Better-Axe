@@ -1,4 +1,4 @@
-package nexo.dual_axe.world.capabilities.item;
+package nexo.better_axe.world.capabilities.item;
 
 import yesman.epicfight.world.capabilities.item.WeaponCategory;
 

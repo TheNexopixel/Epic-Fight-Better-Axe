@@ -1,16 +1,15 @@
-package nexo.dual_axe.skill;
+package nexo.better_axe.skill;
 
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import nexo.dual_axe.EpicFightBetterAxeMain;
-import nexo.dual_axe.gameasset.animation.BetterAxeAnimations;
-import nexo.dual_axe.world.capabilities.item.BetterAxeWeaponCategories;
+import nexo.better_axe.EpicFightBetterAxeMain;
+import nexo.better_axe.gameasset.animation.BetterAxeAnimations;
+import nexo.better_axe.world.capabilities.item.BetterAxeWeaponCategories;
 import yesman.epicfight.api.animation.property.AnimationProperty;
 import yesman.epicfight.api.forgeevent.SkillBuildEvent;
 import yesman.epicfight.api.utils.math.ValueModifier;
 import yesman.epicfight.skill.Skill;
 import yesman.epicfight.skill.SkillCategories;
-import yesman.epicfight.skill.passive.PassiveSkill;
 import yesman.epicfight.skill.weaponinnate.SimpleWeaponInnateSkill;
 import yesman.epicfight.skill.weaponinnate.WeaponInnateSkill;
 import yesman.epicfight.world.damagesource.EpicFightDamageTypeTags;

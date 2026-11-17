@@ -1,4 +1,4 @@
-package nexo.dual_axe;
+package nexo.better_axe;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.packs.PackType;
@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.resource.PathPackResources;
-import nexo.dual_axe.skill.compat.EFXCompat;
+import nexo.better_axe.skill.compat.EFXCompat;
 import yesman.epicfight.compat.ICompatModule;
 
 import java.nio.file.Path;
