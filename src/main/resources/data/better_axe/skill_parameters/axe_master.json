@@ -1,0 +1,15 @@
+{
+  "speed_bonus": 30,
+  "speed_malus": 20,
+  "max_stamina_bonus": 6,
+  "stamina_regen_bonus": 0.2,
+  "attribute_modifiers": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "name": "axeman_skill_stat",
+      "uuid": "e4d81b36-9f2a-4c57-b3a0-6a1c8d5f7e29",
+      "operation": "addition",
+      "amount": 2.0
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "skill.better_axe.skull_cracker": "Skull Cracker",
+  "skill.better_axe.skull_cracker.tooltip": "Deals a huge amount of damage and causes Large Stun",
+  "epicfight.weapon_category.da_axe": "Axe",
+  "skill.better_axe.axe_master": "Axe Master",
+  "skill.better_axe.axe_master.tooltip": "attack speed is increased by 20% when wielding an axe, and you gain +6 maximum stamina and +0.2 stamina regeneration. With any other weapon, attack speed is reduced by 20%."
+}
