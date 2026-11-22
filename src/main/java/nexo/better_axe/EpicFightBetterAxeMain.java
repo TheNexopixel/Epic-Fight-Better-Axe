@@ -12,6 +12,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.resource.PathPackResources;
 import nexo.better_axe.skill.compat.EFXCompat;
+import nexo.better_axe.skill.compat.NightfallCompat;
+import nexo.better_axe.skill.compat.WoMCompat;
+import reascer.wom.main.WeaponsOfMinecraft;
 import yesman.epicfight.compat.ICompatModule;
 
 import java.nio.file.Path;
@@ -27,17 +30,15 @@ public class EpicFightBetterAxeMain {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::commonSetup);
         bus.addListener(this::addPackFindersEvent);
-/*
-        if(ModList.get().isLoaded(WeaponsOfMinecraft.MODID)) {
-            bus.addListener(WoMCompat::buildSkillEvent);
+
+        if (ModList.get().isLoaded(WeaponsOfMinecraft.MODID)) {
             ICompatModule.loadCompatModule(context, WoMCompat.class);
-            DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> bus.addListener(WoMCompat::regIcon));
+            bus.addListener(WoMCompat::buildSkillEvent);
         }
 
-        if(ModList.get().isLoaded(EFN.MODID)){
+        if(ModList.get().isLoaded("efn")){
             ICompatModule.loadCompatModule(context, NightfallCompat.class);
         }
- */
         if (ModList.get().isLoaded("epicfightx")) {
             ICompatModule.loadCompatModule(context, EFXCompat.class);
         }
