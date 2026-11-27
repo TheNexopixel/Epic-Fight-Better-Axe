@@ -20,3 +20,15 @@ mandatory = true
 versionRange = "${minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"
+[[dependencies."${mod_id}"]]
+modId="epicfight"
+mandatory=true
+versionRange="[20.14.,20.16)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies."${mod_id}"]]
+modId="cdmoveset"
+mandatory=false
+versionRange="[2.0]"
+ordering="AFTER"
+side="BOTH"
